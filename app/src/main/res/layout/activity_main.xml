@@ -110,7 +110,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buy"
+        android:text="Purchase"
+        android:onClick="onPurchaseClicked"
         style="@style/Widget.AppCompat.Button.Colored"
         />
   </LinearLayout>
