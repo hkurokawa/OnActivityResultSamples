@@ -1,5 +1,6 @@
 package net.hydrakecat.sample
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -13,5 +14,7 @@ class LoginActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_login)
+
+    setResult(Activity.RESULT_OK)
   }
 }
