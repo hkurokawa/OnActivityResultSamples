@@ -34,6 +34,10 @@
         android:name=".MainActivity3"
         android:exported="true"
         android:label="MainActivity3"/>
+    <activity
+        android:name=".MainActivity4"
+        android:exported="true"
+        android:label="MainActivity4"/>
   </application>
 
 </manifest>
