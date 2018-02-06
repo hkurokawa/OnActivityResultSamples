@@ -43,6 +43,10 @@
         android:name=".MainActivity5"
         android:exported="true"
         android:label="MainActivity5"/>
+    <activity
+        android:name=".MainActivity6"
+        android:exported="true"
+        android:label="MainActivity6"/>
   </application>
 
 </manifest>
